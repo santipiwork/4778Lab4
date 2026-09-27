@@ -32,21 +32,6 @@ The saved scene contains a **Cinemachine Brain** on Main Camera and a **Ship Tra
 
 **Tools → Space Shooter → Configure Project** rebuilds the lab's saved component wiring and default tuning. It is an authoring utility, not a step required before playing; it overwrites those defaults when deliberately invoked.
 
-## Verification and recording
-
-Use **Window → General → Test Runner**. EditMode tests cover five-hit boss health, one-hit regular health, boss thresholds, escaping bosses and game-over rules. PlayMode tests exercise actual Input System events, physics collisions, camera following, noise decay, boss zoom, duplicate hits and restart.
-
-Build a development player using **Tools → Space Shooter → Build Windows Demo**. Normal launch is human-controlled. For a repeatable automated gameplay recording, launch the development build with:
-
-```powershell
-.\Builds\Windows\MeteorWatch.exe -screen-width 1280 -screen-height 720 -screen-fullscreen 0 -demoCapture "C:\path\to\frames"
-```
-
-The opt-in recorder drives a virtual gamepad through the normal input bindings, captures 30 FPS PNG frames, and writes a result summary to `capture.txt`. It aims at meteors, attempts a boss kill, then flies into an enemy to demonstrate the one-life rule and restart. It does not award kills or inject damage. Encode frames with FFmpeg:
-
-```text
-ffmpeg -framerate 30 -i frame-%05d.png -c:v libx264 -pix_fmt yuv420p -crf 20 gameplay.mp4
-```
 
 ## Week 4 enemy movement (quiz points)
 
