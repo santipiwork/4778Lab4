@@ -47,11 +47,6 @@ Each spawn cycles those solutions and flips orbit direction. Regular meteors use
 
 The course quiz form itself is submitted in the class site. These points replace that quiz's grading; the behavior above is the response.
 
-## Submission details still needed
-
-- **Team (3–4 people):** add the actual teammate names before submission.
-- **Public GitHub repository:** publish this folder's `Assets`, `Packages`, `ProjectSettings`, `.gitignore`, README and recording. The ignore file excludes Unity caches and local builds.
-- **Video:** include the final gameplay MP4 with the submission or a link to it.
 
 ## References
 
