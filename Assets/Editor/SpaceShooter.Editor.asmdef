@@ -1,0 +1,5 @@
+{
+  "name": "SpaceShooter.Editor",
+  "references": ["SpaceShooter.Runtime", "Unity.InputSystem", "Unity.Cinemachine", "Unity.RenderPipelines.Universal.Runtime"],
+  "includePlatforms": ["Editor"]
+}

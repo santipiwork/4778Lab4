@@ -1,0 +1,6 @@
+{
+  "name": "SpaceShooter.EditModeTests",
+  "references": ["SpaceShooter.Runtime"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

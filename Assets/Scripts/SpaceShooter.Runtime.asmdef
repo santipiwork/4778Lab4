@@ -1,0 +1,5 @@
+{
+  "name": "SpaceShooter.Runtime",
+  "references": ["Unity.InputSystem", "Unity.Cinemachine", "Unity.ugui"],
+  "autoReferenced": true
+}

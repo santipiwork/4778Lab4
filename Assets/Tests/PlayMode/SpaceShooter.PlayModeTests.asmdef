@@ -1,0 +1,5 @@
+{
+  "name": "SpaceShooter.PlayModeTests",
+  "references": ["SpaceShooter.Runtime", "Unity.InputSystem", "Unity.Cinemachine"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}
